@@ -14,7 +14,6 @@ Source1:        %{name}.completion.bz2
 Source2:        %{name}-more-cows.tar.bz2
 Patch0:		%{name}.save.the.world.patch
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Funny program to create ASCII images like cows, sheeps and much more.
