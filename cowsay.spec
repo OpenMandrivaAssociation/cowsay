@@ -1,6 +1,6 @@
 %define name    cowsay
 %define version 3.03
-%define release %mkrel 12
+%define release %mkrel 14
 
 Name:           %{name}
 Version:        %{version}
