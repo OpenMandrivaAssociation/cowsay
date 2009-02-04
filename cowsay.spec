@@ -1,6 +1,6 @@
 %define name    cowsay
 %define version 3.03
-%define release %mkrel 15
+%define release %mkrel 16
 
 Name:       %{name}
 Version:    %{version}
@@ -10,7 +10,6 @@ License:    Artistic and GPL
 Group:      Toys
 URL:        http://www.nog.net/~tony/warez/cowsay.shtml
 Source0:    http://www.nog.net/~tony/warez/%{name}-%{version}.tar.bz2
-Source1:    %{name}.completion
 Source10:   apt.cow
 Source11:   calvin.cow
 Source12:   cock.cow
@@ -68,16 +67,12 @@ install -m 644 %{SOURCE19} %{buildroot}%{_datadir}/cows
 install -m 644 %{SOURCE20} %{buildroot}%{_datadir}/cows
 install -m 644 %{SOURCE21} %{buildroot}%{_datadir}/cows
 
-install -d -m 755 %{buildroot}%{_sysconfdir}/bash_completion.d
-install -m 644 %{SOURCE1} %{buildroot}%{_sysconfdir}/bash_completion.d/cowsay
-
 %clean
 rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
 %doc LICENSE README INSTALL
-%config(noreplace) %{_sysconfdir}/bash_completion.d/*
 %{_bindir}/*
 %{_mandir}/man1/*
 %{_datadir}/cows
