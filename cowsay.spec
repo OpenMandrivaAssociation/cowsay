@@ -1,6 +1,6 @@
 %define name    cowsay
 %define version 3.03
-%define release %mkrel 18
+%define release %mkrel 19
 
 Name:       %{name}
 Version:    %{version}
@@ -10,10 +10,11 @@ License:    Artistic and GPL
 Group:      Toys
 URL:        http://www.nog.net/~tony/warez/cowsay.shtml
 Source0:    http://www.nog.net/~tony/warez/%{name}-%{version}.tar.bz2
+Source9:    duck.cow
 Source10:   apt.cow
 Source11:   calvin.cow
 Source12:   cock.cow
-Source13:   duck.cow
+Source13:   small-duck.cow
 Source14:   gnu.cow
 Source15:   sodomized-sheep.cow
 Source16:   suse.cow
