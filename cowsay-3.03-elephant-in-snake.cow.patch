@@ -1,0 +1,29 @@
+
+--- cowsay-3.03.orig/cows/elephant-in-snake.cow
++++ cowsay-3.03/cows/elephant-in-snake.cow
+@@ -1,14 +1,16 @@
+ ##
+ ## Do we need to explain this?
+ ##
++## Reversal patch from "D. Joe Anderson" <deejoe@raccoon.com>
++##  in Bug #190455
++##
+ $the_cow = <<EOC;
+-   $thoughts
+-    $thoughts              ....       
+-           ........    .      
+-          .            .      
+-         .             .      
+-.........              .......
+-..............................
+-
++       $thoughts
++        $thoughts  ....
++          .    ........
++          .            .
++          .             .
++    .......              .........
++    ..............................
+ Elephant inside ASCII snake
+ EOC
+
