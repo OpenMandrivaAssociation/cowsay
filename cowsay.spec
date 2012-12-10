@@ -78,3 +78,67 @@ rm -rf %{buildroot}
 %{_mandir}/man1/*
 %{_datadir}/cows
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 3.03-20mdv2011.0
++ Revision: 610166
+- rebuild
+
+* Thu Jan 21 2010 Pascal Terjan <pterjan@mandriva.org> 3.03-19mdv2010.1
++ Revision: 494625
+- Restore nice duck and rename Debian one to small-duck.cow
+
+* Fri Dec 11 2009 Guillaume Rousse <guillomovitch@mandriva.org> 3.03-18mdv2010.1
++ Revision: 476342
+- fix [censored for sake of younger audience] cow
+
+* Thu Sep 10 2009 Thierry Vignaud <tv@mandriva.org> 3.03-17mdv2010.0
++ Revision: 437131
+- rebuild
+
+* Wed Feb 04 2009 Guillaume Rousse <guillomovitch@mandriva.org> 3.03-16mdv2009.1
++ Revision: 337593
+- keep bash completion in its own package
+
+* Tue Dec 23 2008 Guillaume Rousse <guillomovitch@mandriva.org> 3.03-15mdv2009.1
++ Revision: 318024
+- fix broken cow file
+- add new cows from Debian package (#46560)
+- uncompress additional sources
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 3.03-14mdv2009.0
++ Revision: 243695
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 3.03-12mdv2008.1
++ Revision: 136345
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Aug 19 2007 Guillaume Rousse <guillomovitch@mandriva.org> 3.03-12mdv2008.0
++ Revision: 67055
+- rebuild
+
+
+* Fri Jun 09 2006 Guillaume Rousse <guillomovitch@mandriva.org> 3.03-11mdv2007.0
+- %%mkrel
+- rpmbuildupdate aware
+
+* Sat Jun 04 2005 Guillaume Rousse <guillomovitch@mandriva.org> 3.03-10mdk 
+- fix man page (fix #16291)
+
+* Sat Jul 17 2004 Guillaume Rousse <guillomovitch@mandrake.org> 3.03-9mdk 
+- hurry businesman compliant (aka two new wonderful cows)
+
+* Sun Jul 11 2004 Guillaume Rousse <guillomovitch@mandrake.org> 3.03-8mdk 
+- apologies to the girafes (with one only f)
+
+* Sat Jun 05 2004 Guillaume Rousse <guillomovitch@mandrake.org> 3.03-7mdk 
+- #mandrakefr compliant (aka four new additional cows)
+
+* Thu Aug 21 2003 Guillaume Rousse <guillomovitch@linux-mandrake.com> 3.03-6mdk
+- save.the.world patch
+

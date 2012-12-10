@@ -1,15 +1,2 @@
 sources:
-  "apt.cow:"	ef923ce8bfc41abf245e93276d5a4ab633f0ef95
-  "calvin.cow:"	62e89a05fb14c0a055d987db24cf75be58e86f25
-  "cock.cow:"	8dd015b32da6701fc380d868b971c6c0b1fc8067
-  "cowsay-3.03.tar.bz2:"	fe47495c4f741664db33173ea9fbc78f633d6ab4
-  "duck.cow:"	43edaa6ea68f819c510d20aa5f756cd4ff0463e5
-  "girafe.cow:"	025fcc69d7cb9d3431204a35de0c3562f1a8ef58
-  "gnu.cow:"	16e721af76d0938b836c80a404545084fb432c1d
-  "kenny.cow:"	a8759b14a0d73b4b4e1e17558c9a189e5d439fb2
-  "phaco.cow:"	92219d65e1cf829ab99fc4c99ee66eb1ba37cff5
-  "pumpkin.cow:"	cef1894488dc45a0a1389d19bd33a0a73fb649c4
-  "shark.cow:"	bba4e49037d13cd44dca878447dc0723a6c9b59e
-  "small-duck.cow:"	449faba47cdcc82e5c8c7b06823f255348644207
-  "sodomized-sheep.cow:"	fe1e23413e66a04e4cee8626949a8d681355b950
-  "suse.cow:"	f1ea901f35cf26f40beb5f319574a539e4add18f
+  "cowsay-3.03.tar.bz2": fe47495c4f741664db33173ea9fbc78f633d6ab4

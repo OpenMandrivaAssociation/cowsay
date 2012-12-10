@@ -1,0 +1,9 @@
+$eye = substr($eyes,1);
+$the_cow = <<EOC;
+ $thoughts     ,~~.
+  $thoughts __( $eye  )  
+    `--'==( ___/)
+       ( (   . /
+        \\ '-' /
+    ~'`~'`~'`~'`~
+EOC
