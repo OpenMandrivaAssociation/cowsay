@@ -8,7 +8,7 @@ Release:    %{release}
 Summary:    Configurable talking cow
 License:    Artistic and GPL
 Group:      Toys
-URL:        http://www.nog.net/~tony/warez/cowsay.shtml
+URL:        https://www.nog.net/~tony/warez/cowsay.shtml
 Source0:    http://www.nog.net/~tony/warez/%{name}-%{version}.tar.bz2
 Source9:    duck.cow
 Source10:   apt.cow
