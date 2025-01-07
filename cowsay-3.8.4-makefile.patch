@@ -1,0 +1,12 @@
+diff -up cowsay-3.8.4/Makefile.omv~ cowsay-3.8.4/Makefile
+--- cowsay-3.8.4/Makefile.omv~	2025-01-07 15:30:54.598117945 +0000
++++ cowsay-3.8.4/Makefile	2025-01-07 15:31:41.750183924 +0000
+@@ -2,7 +2,7 @@
+ 
+ PACKAGE_TARNAME = cowsay
+ 
+-prefix = /usr/local
++prefix := /usr/local
+ exec_prefix = ${prefix}
+ bindir = ${exec_prefix}/bin
+ datarootdir = ${prefix}/share

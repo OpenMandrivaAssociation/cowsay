@@ -1,6 +1,5 @@
-
---- cowsay-3.03.orig/cows/luke-koala.cow
-+++ cowsay-3.03/cows/luke-koala.cow
+--- a/share/cowsay/cows/luke-koala.cow
++++ b/share/cowsay/cows/luke-koala.cow
 @@ -10,6 +10,6 @@
       ()~*~()   
       (_)-(_)   

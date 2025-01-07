@@ -1,6 +1,5 @@
-
---- cowsay-3.03.orig/cows/elephant-in-snake.cow
-+++ cowsay-3.03/cows/elephant-in-snake.cow
+--- a/share/cowsay/cows/elephant-in-snake.cow
++++ b/share/cowsay/cows/elephant-in-snake.cow
 @@ -1,14 +1,16 @@
  ##
  ## Do we need to explain this?
